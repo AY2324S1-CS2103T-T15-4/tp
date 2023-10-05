@@ -3,7 +3,7 @@
 
 ![Ui](docs/images/Ui.png)
 
-* our **team project** for the course **CS2103T** in AY2023/2024 Semester 1.
+* This is our **team project** for the course **CS2103T** in AY2023/2024 Semester 1.
 * This is based on the `AddressBook-Level3` project created by the [SE-EDU initiative](https://se-education.org).
 * The project is a desktop application used for organising contact and company details.
   * It is **written in OOP fashion**.
