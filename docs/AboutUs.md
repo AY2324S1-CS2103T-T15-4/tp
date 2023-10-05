@@ -43,7 +43,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 [[github](https://github.com/ryantzr1)]
 [[portfolio](team/ryantzr1.md)]
 
-* Role: Product 
+* Role: Product
 * Responsibilities: In charge of UX and product functionality
 
 ### Ian Tay
