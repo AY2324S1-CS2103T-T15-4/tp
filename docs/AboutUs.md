@@ -38,7 +38,7 @@ You can reach us at the email `seer[at]comp.nus.edu.sg`
 
 ### Ryan Tan
 
-<img src="images/ryantzr.png" width="200px">
+<img src="images/ryantzr1.png" width="200px">
 
 [[github](https://github.com/ryantzr1)]
 [[portfolio](team/ryantzr1.md)]
