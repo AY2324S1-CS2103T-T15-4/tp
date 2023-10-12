@@ -60,12 +60,12 @@ Please provide a valid email address.
 
 ### Deleting Contacts
 
-#### Command: `delete`
+#### Command: `deletePerson`
 
-The **delete** command allows you to remove contacts from your Connectify database. To delete a contact, you need to specify the contact's index.
+The **deletePerson** command allows you to remove contacts from your Connectify database. To delete a contact, you need to specify the contact's index.
 
 ```
-delete INDEX
+deletePerson INDEX
 ```
 
 - `INDEX`: Provide the index of the contact you want to delete.
@@ -74,7 +74,7 @@ delete INDEX
 
 To delete the contact named John Doe at index 1, use the following command:
 ```
-delete 1
+deletePerson 1
 ```
 
 **Successful Output:**
@@ -153,10 +153,10 @@ That is not a valid command.
 
 ## Command Summary
 
-Action | Format, Examples
---------|------------------
-**Add** | `add n/NAME e/EMAIL [t/TAG]…` <br> e.g., `add n/John Doe
-**Delete** | `delete INDEX` <br> e.g., `delete 1`
-**List** | `list`
-**Exit** | `exit`
+| Action           | Format, Examples              |
+|------------------|-------------------------------|
+| **Add**          | `add n/NAME e/EMAIL [t/TAG]…` <br> e.g., `add n/John Doe |
+| **DeletePerson** | `deletePerson INDEX` <br> e.g., `delete 1` |
+| **List**         | `list`                        |
+| **Exit**         | `exit`                        |
 
