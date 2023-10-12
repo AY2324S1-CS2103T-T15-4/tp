@@ -11,8 +11,8 @@ import seedu.address.logic.commands.DeletePersonCommand;
 
 /**
  * As we are only doing white-box testing, our test cases do not cover path variations
- * outside of the DeleteCommand code. For example, inputs "1" and "1 abc" take the
- * same path through the DeleteCommand, and therefore we test only one of them.
+ * outside of the DeletePersonCommand code. For example, inputs "1" and "1 abc" take the
+ * same path through the DeletePersonCommand, and therefore we test only one of them.
  * The path variation for those two cases occur inside the ParserUtil, and
  * therefore should be covered by the ParserUtilTest.
  */
@@ -21,7 +21,7 @@ public class DeletePersonCommandParserTest {
     private DeletePersonCommandParser parser = new DeletePersonCommandParser();
 
     @Test
-    public void parse_validArgs_returnsDeleteCommand() {
+    public void parse_validArgs_returnsDeletePersonCommand() {
         assertParseSuccess(parser, "1", new DeletePersonCommand(INDEX_FIRST_PERSON));
     }
 
