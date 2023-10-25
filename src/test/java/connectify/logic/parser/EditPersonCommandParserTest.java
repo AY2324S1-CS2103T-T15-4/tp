@@ -107,7 +107,8 @@ public class EditPersonCommandParserTest {
         assertParseFailure(parser, "1 " + PREFIX_COMPANY + INDEX_FIRST_COMPANY.getOneBased()
                 + CommandTestUtil.INVALID_NAME_DESC
                 + CommandTestUtil.INVALID_EMAIL_DESC + CommandTestUtil.VALID_ADDRESS_AMY
-                + CommandTestUtil.VALID_PHONE_AMY, PersonName.MESSAGE_CONSTRAINTS);    }
+                + CommandTestUtil.VALID_PHONE_AMY, PersonName.MESSAGE_CONSTRAINTS);
+    }
 
     @Test
     public void parse_allFieldsSpecified_success() {
