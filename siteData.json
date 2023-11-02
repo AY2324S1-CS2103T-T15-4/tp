@@ -41,6 +41,8 @@
       "title": "Developer Guide",
       "headings": {
         "connectify-developer-guide": "Connectify Developer Guide",
+        "table-of-contents": "Table Of Contents",
+        "introduction": "Introduction",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
