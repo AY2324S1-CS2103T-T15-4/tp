@@ -82,7 +82,15 @@
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
+        "adding-a-person": "Adding a person",
         "deleting-a-person": "Deleting a person",
+        "sharing-instructions-on-how-to-add-a-person": "Sharing instructions on how to add a Person",
+        "adding-a-company": "Adding a company",
+        "deleting-a-company": "Deleting a company",
+        "sharing-instructions-on-how-to-add-a-company": "Sharing instructions on how to add a Company",
+        "ranking": "Ranking",
+        "list-display-entities": "List/Display entities",
+        "find": "Find",
         "saving-data": "Saving data"
       },
       "headingKeywords": {}
