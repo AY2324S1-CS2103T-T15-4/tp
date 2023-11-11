@@ -62,6 +62,9 @@ Finally, here are some of the symbols and text formatting to look out for as you
     * [Clearing the database: `clear`](#clearing-the-database-clear)
     * [Seeking Help: `help`](#seeking-help-help)
     * [Exiting Connectify: `exit`](#exiting-connectify-exit)
+* [Advanced Features](#advanced-features)
+    * [Keyboard Shortcuts](#keyboard-shortcuts)
+    * [Advanced Data Management Features](#advanced-data-management-features)
 * [FAQ](#faq)
 * [Known issues](#known-issues)
 * [Command Summary](#command-summary)
@@ -1323,6 +1326,70 @@ There will be no output. The program will exit and the application window will c
 ```
 That is not a valid command.
 ```
+
+<a href="#table-of-contents" class="return-to-toc-link">
+  <span class="return-to-toc-text">Return to Table of Contents</span>
+  <span class="return-to-toc-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-bar-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z">
+      </path>
+    </svg>
+  </span>
+</a>
+
+--------------------------------------------------------------------------------------------------------------------
+
+## Advanced Features
+
+Note that the information in this section is **optional**.
+
+This section is meant for more advanced users of Connectify who are already familiar with the basic functionality and features and who are looking to increase their efficiency further when using Connectify. If you are still getting used to the features, don't worry about the content in this section yet. You can always revisit this section when you are more comfortable using Connectify.
+
+### Keyboard shortcuts
+
+While you can use a mouse to navigate Connectify, using the keyboard can be a great way to improve your efficiency and productivity as you can **reduce time wasted** switching frequently between your keyboard and mouse.
+
+The table on the next page lists the keyboard shortcuts currently available in Connectify.
+
+<div style="page-break-after: always;"></div>
+
+|                  Keyboard Key                  | Function                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|:----------------------------------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 <kbd>F1</kbd>                  | **Seeking help:**<br> At anytime, press <kbd>F1</kbd> to bring up the pop-up window with the link to the user guide.                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|                 <kbd>Tab</kbd>                 | **Scrolling down the list:**<br> When you are in the command box, press <kbd>Tab</kbd> twice to navigate to the 'All' list. If you wish to navigate to the 'People' list or 'Companies' list, please refer to the section on the <kbd>LeftArrow</kbd> and <kbd>RightArrow</kbd> section. Once you are at the title any of the three lists, use <kbd>Tab</kbd> to continue moving down that list. Pressing <kbd>Tab</kbd> again after reaching the end of the list will return you to the command box.                                                                              |
+|       <kbd>Shift</kbd> + <kbd>Tab</kbd>        | **Scrolling up the list:**<br> Similar to <kbd>Tab</kbd> but moves up the list instead.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <kbd>LeftArrow</kbd> and <kbd>RightArrow</kbd> | **Switching to another list:**<br> When you are at the title of the list section, press <kbd>LeftArrow</kbd> to navigate to the title of the list directly to the current list's left. If you are currently at the title of the 'All' list, pressing <kbd>LeftArrow</kbd> wil navigate you to the title of the 'Companies' list. Press <kbd>RightArrow</kbd> to navigate to the title of the list directly to the current list's right. If you are currently at the title of the 'Companies' list, pressing <kbd>RightArrow</kbd> wil navigate you to the title of the 'All' list. |
+|                <kbd>Space</kbd>                | **Navigating a company card in the 'All' list:**<br> When you are at any company card in the 'All' list, use <kbd>Space</kbd> to expand or close the company card you are currently on.                                                                                                                                                                                                                                                                                                                                                                                            |
+|  <kbd>UpArrow</kbd> and <kbd>DownArrow</kbd>   | **Switching to another person card or company card:**<br> When you are in the 'People' list or 'Companies' list, press <kbd>UpArrow</kbd> or <kbd>DownArrow</kbd> to move up or down the list.                                                                                                                                                                                                                                                                                                                                                                                     |
+
+<a href="#table-of-contents" class="return-to-toc-link">
+  <span class="return-to-toc-text">Return to Table of Contents</span>
+  <span class="return-to-toc-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-bar-up" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708zM2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4z">
+      </path>
+    </svg>
+  </span>
+</a>
+
+--------------------------------------------------------------------------------------------------------------------
+<div style="page-break-after: always;"></div>
+
+### Advanced Data Management Features
+
+#### Saving your data
+
+Connectify will automatically save your data on your hard disk after any command that changes it. There is no need for you to manually save your data.
+
+#### Editing your data file
+
+You can directly modify Connectify's data without opening the application. You can do so by editing the Connectify [JSON file](https://fileinfo.com/extension/json) `[JAR file location]/data/addressbook.json`.
+
+<box type="warning" icon=":fa-solid-triangle-exclamation:">
+
+**Warning**
+If your edited data is not of the correct format, Connectify will **discard all of your data** and start with an empty JSON file the next time you launch Connectify. This is **irreversible**, so please **ensure that you have backed up your data** before editing it.
+</box>
 
 <a href="#table-of-contents" class="return-to-toc-link">
   <span class="return-to-toc-text">Return to Table of Contents</span>
