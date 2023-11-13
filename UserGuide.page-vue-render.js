@@ -26,10 +26,10 @@ with(this){return _c('p',[_v("For a full overview of everything this guide has t
 with(this){return _c('p',[_v("Finally, here are some of the "),_c('strong',[_v("symbols")]),_v(" and "),_c('strong',[_v("text formatting")]),_v(" to look out for as you make use of this guide:")])}
 },function anonymous(
 ) {
-with(this){return _c('div',{staticClass:"alert alert-primary",attrs:{"markdown":"span"}},[_c('strong',[_v(":bulb: Tip:")]),_v("\nBlue boxes contain additional information that may be useful for enhancing your experience using Connectify.\n")])}
+with(this){return _c('div',{staticClass:"alert alert-primary",attrs:{"markdown":"span"}},[_v(":bulb: "),_c('strong',[_v("Tip:")]),_v("\nBlue boxes contain additional information that may be useful for enhancing your experience using Connectify.\n")])}
 },function anonymous(
 ) {
-with(this){return _c('div',{staticClass:"alert alert-warning",attrs:{"markdown":"block"}},[_c('strong',[_v(":exclamation: Caution:")]),_v("\nYellow boxes contain important warnings.\n")])}
+with(this){return _c('div',{staticClass:"alert alert-warning",attrs:{"markdown":"block"}},[_v(":exclamation: "),_c('strong',[_v("Caution:")]),_v("\nYellow boxes contain important warnings.\n")])}
 },function anonymous(
 ) {
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',{staticStyle:{"text-align":"center"}},[_v("Text Formatting")]),_v(" "),_c('th',[_v("Meaning")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('a',{attrs:{"href":"#glossary"}},[_v("Hyperlink to Glossary")])]),_v(" "),_c('td',[_v("Clickable hyperlink to navigate to another section")])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("command text")])]),_v(" "),_c('td',[_v("Text relevant to Connectify user commands")])]),_v(" "),_c('tr',[_c('td',{staticStyle:{"text-align":"center"}},[_c('kbd',[_v("Enter")])]),_v(" "),_c('td',[_v("A keyboard key")])])])])])}
@@ -980,6 +980,6 @@ with(this){return _c('h3',{attrs:{"id":"general-commands-2"}},[_v("General Comma
 with(this){return _c('div',{staticClass:"table-responsive"},[_c('table',{staticClass:"markbind-table table table-bordered table-striped"},[_c('thead',[_c('tr',[_c('th',[_v("Action")]),_v(" "),_c('th',[_v("Format, Examples")])])]),_v(" "),_c('tbody',[_c('tr',[_c('td',[_c('strong',[_v("List")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("list")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Clear")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("clear")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Help")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("help")])])]),_v(" "),_c('tr',[_c('td',[_c('strong',[_v("Exit")])]),_v(" "),_c('td',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("exit")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 0:38:57 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 0:52:13 GMT+8]")])])])}
 }];
   
